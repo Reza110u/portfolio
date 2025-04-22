@@ -13,11 +13,11 @@
     <nav class="titr">
         <div class="matn">
             <ul>
-                <li><a style="text-decoration: none;" href="#">ارتباط با من</a></li>
-                <li><a style="text-decoration: none;" href="#">پروژه ها</a></li>
-                <li><a style="text-decoration: none;" href="#"> مهارت ها</a></li>
-                <li><a style="text-decoration: none;" href="#"> درباره من</a></li>
-                <li><a style="text-decoration: none;" href="#"> خانه </a></li>
+                <li><a style="text-decoration: none;" href="#foot">ارتباط با من</a></li>
+                <li><a style="text-decoration: none;" href="#proje">پروژه ها</a></li>
+                <li><a style="text-decoration: none;" href="#skill"> مهارت ها</a></li>
+                <li><a style="text-decoration: none;" href="#about"> درباره من</a></li>
+                <li><a style="text-decoration: none;" href="#home"> خانه </a></li>
             </ul>
         </div>
         
@@ -25,7 +25,7 @@
 
     
 
-    <section class="intro">
+    <section id = "home" class="intro">
         <div class="img">
             <img src="./assest/image/IMG_20230114_225434_682.jpg" alt="">
         </div>
@@ -36,7 +36,7 @@
 
     </section>
 
-    <section class="about-me">
+    <section id = "about" class="about-me">
         <div class="about-text">
             <h3>درباره من</h3>
             <p>خواستم بیشتر خودم رو معرفی کنم</p>
@@ -47,7 +47,7 @@
     </section>
 
 
-    <section class="skills-section">
+    <section id = "skill" class="skills-section">
         <h2>مهارت‌ها</h2>
       
         <div class="all-stars">
@@ -101,7 +101,7 @@
       
 
 
-    <section class="projects">
+    <section id = "proje" class="projects">
         <div class="project-box">
             <img src="./assest/image/4k-moon.jpg" alt="پروژه 1">
             <div class="project-title">
@@ -148,7 +148,39 @@
         </div>
     </section>
 
-
+    <section id = "foot" class="footer">
+        <h2>ارتباط با من</h2>
+        
+        <form class="text-me">
+          <div class="form-group">
+            <label for="name">:نام</label>
+            <input type="text" id="name" name="name">
+          </div>
+      
+          <div class="form-group">
+            <label for="lastname">:نام خانوادگی</label>
+            <input type="text" id="lastname" name="lastname">
+          </div>
+      
+          <div class="form-group">
+            <label for="message">:پیام</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+      
+          <button type="submit">:ثبت</button>
+        </form>
+      
+        <div class="media">
+          <ul>
+            <li><a href="mailto:reza@example.com">📧 reza@example.com</a></li>
+            <li><a href="tel:+989123456789">☎️ 09123456789</a></li>
+            <li><a href="https://github.com/yourusername" target="_blank">💻 GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">🔗 LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+      
+      
 
 
 </body>
